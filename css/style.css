@@ -15,6 +15,7 @@
 }
 
 header {
+  z-index: 99999;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   position: fixed;
   width: 100%;
@@ -392,5 +393,136 @@ main #intro .intro-wrapper .intro-right img {
     padding: 0 40px;
     width: 100% !important;
     grid-row-start: 1;
+  }
+}
+#yuridik_help {
+  margin-bottom: 360px;
+  margin-top: 100px;
+}
+#yuridik_help .container .yuridik_help {
+  margin-bottom: 90px;
+}
+#yuridik_help .container .yuridik_help h4 {
+  color: var(--Base-Black, #140A32);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-bottom: 20px;
+}
+#yuridik_help .container .yuridik_help p {
+  color: var(--Base-Black, #140A32);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-bottom: 20px;
+}
+#yuridik_help .container .free_consul h4 {
+  color: var(--Base-Black, #140A32);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-bottom: 20px;
+}
+#yuridik_help .container .free_consul p {
+  color: var(--Base-Black, #140A32);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-bottom: 30px;
+}
+#yuridik_help .container .free_consul ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#yuridik_help .container .free_consul ul li {
+  position: relative;
+  width: 270px;
+  height: 180px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid var(--Gray-Borders, rgba(47, 43, 67, 0.15));
+}
+#yuridik_help .container .free_consul ul li i {
+  color: #33836E;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+#yuridik_help .container .free_consul ul li p {
+  color: var(--Base-Black, #140A32);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+#yuridik_help .container .free_consul ul li h4 {
+  color: var(--Base-Black, #140A32);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#yuridik_help .container .free_consul ul li a {
+  position: absolute;
+  bottom: 10px;
+  color: var(--green, #33836E);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 390px) {
+  #yuridik_help {
+    margin-top: 60px !important;
+    margin-bottom: 40px !important;
+  }
+  #yuridik_help .container .yuridik_help {
+    padding: 0 20px;
+    width: 100%;
+  }
+  #yuridik_help .container .yuridik_help h4 {
+    font-size: 20px;
+  }
+  #yuridik_help .container .yuridik_help p {
+    font-size: 14px;
+  }
+  #yuridik_help .container .free_consul {
+    width: 100% !important;
+    padding: 0 4px;
+    width: 100% !important;
+  }
+  #yuridik_help .container .free_consul h4 {
+    padding: 0 16px;
+    font-size: 20px !important;
+  }
+  #yuridik_help .container .free_consul p {
+    padding: 0 16px !important;
+    font-size: 14px;
+  }
+  #yuridik_help .container .free_consul ul {
+    width: 100% !important;
+    flex-wrap: wrap;
+  }
+  #yuridik_help .container .free_consul ul li {
+    width: 175px !important;
+    height: 191px !important;
+    margin-bottom: 15px;
+  }
+  #yuridik_help .container .free_consul ul li p {
+    padding: 0 !important;
+    font-size: 14px !important;
+  }
+  #yuridik_help .container .free_consul ul li h4 {
+    padding: 0 !important;
+    font-size: 18px !important;
   }
 }/*# sourceMappingURL=style.css.map */
