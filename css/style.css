@@ -1217,4 +1217,112 @@ main #intro .intro-wrapper .intro-right img {
   #seo-wrapper .container .seo-wrapper p {
     font-size: 14px;
   }
+}
+#our_clients .container .our_clients {
+  overflow: hidden;
+  position: relative;
+}
+#our_clients .container .our_clients h5 {
+  color: var(--Base-Black, #140A32);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-bottom: 30px;
+}
+#our_clients .container .our_clients ul {
+  display: flex;
+  gap: 15px;
+  transition: all 0.2s linear;
+}
+#our_clients .container .our_clients ul li {
+  display: flex;
+  width: 367px;
+  height: 421px;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid var(--Gray-Borders, rgba(47, 43, 67, 0.15));
+}
+#our_clients .container .our_clients ul li div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#our_clients .container .our_clients ul li div span {
+  padding: 13px;
+  border-radius: 999px;
+  background: #115B82;
+}
+#our_clients .container .our_clients ul li div div {
+  display: block;
+}
+#our_clients .container .our_clients ul li div div h6 {
+  color: var(--Base-Black, #140A32);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#our_clients .container .our_clients ul li div div p {
+  color: var(--Gray-Medium, rgba(47, 43, 67, 0.5));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#our_clients .container .our_clients ul li .text_p_js {
+  color: var(--Base-Black, #140A32);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  height: 182px;
+  margin-bottom: 24px;
+}
+#our_clients .container .our_clients ul li p:nth-child(3) {
+  color: var(--Gray-Medium, rgba(47, 43, 67, 0.5));
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+#our_clients .container .our_clients ul li p:nth-child(4) {
+  color: var(--green, #33836E);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+#our_clients .container .our_clients #right-turn {
+  position: absolute;
+  font-size: 50px;
+  right: 0px;
+  top: 55%;
+  background: #000;
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+}
+#our_clients .container .our_clients #left-turn {
+  background: #000;
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+  left: 0px;
+  top: 55%;
+  position: absolute;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 390px) {
+  #our_clients .container .our_clients h5 {
+    font-size: 20px;
+    padding: 0 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
