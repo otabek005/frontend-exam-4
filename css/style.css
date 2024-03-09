@@ -1325,4 +1325,351 @@ main #intro .intro-wrapper .intro-right img {
     font-size: 20px;
     padding: 0 10px;
   }
+}
+#portal {
+  margin-top: 80px;
+}
+#portal .container h5 {
+  color: var(--Base-Black, #140A32);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-bottom: 30px;
+}
+#portal .container .portal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#portal .container .portal .portal-left {
+  width: 463px;
+}
+#portal .container .portal .portal-left ul li {
+  margin-bottom: 15px;
+  display: flex;
+  width: 463px;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  border: 1px solid var(--Gray-Borders, rgba(47, 43, 67, 0.15));
+}
+#portal .container .portal .portal-left ul li div p:nth-child(1) {
+  color: var(--Base-Black, #140A32);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+#portal .container .portal .portal-left ul li div p:nth-child(2) {
+  color: var(--Base-Black, #140A32);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+#portal .container .portal .portal-left ul li div p:nth-child(3) {
+  color: var(--Gray-Medium, rgba(47, 43, 67, 0.5));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#portal .container .portal .portal-left .yurist {
+  color: var(--green, #33836E);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  width: 463px;
+  padding: 16px 36px 18px 36px;
+  line-height: normal;
+  border-radius: 10px;
+  background: #E0ECE9;
+  cursor: pointer;
+}
+#portal .container .portal .portal-right {
+  width: 657px;
+  position: relative;
+  height: 617px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--green, #33836E);
+}
+#portal .container .portal .portal-right .online {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: flex;
+  gap: 5px;
+  padding: 5px 16px 6px 16px;
+  border-radius: 10px;
+  background: var(--Base-White, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#portal .container .portal .portal-right h4 {
+  color: var(--Base-White, #FFF);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  margin-bottom: 10px;
+}
+#portal .container .portal .portal-right p:nth-child(3) {
+  color: var(--Base-White, #FFF);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+#portal .container .portal .portal-right form #message {
+  display: flex;
+  width: 577px;
+  height: 213px;
+  padding: 12px 16px 8px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  border-radius: 10px;
+  background: var(--Base-White, #FFF);
+  margin-bottom: 20px;
+}
+#portal .container .portal .portal-right form #message input {
+  color: var(--Gray-Medium, rgba(47, 43, 67, 0.5));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  outline: none;
+  line-height: normal;
+  border: none;
+  width: 100%;
+}
+#portal .container .portal .portal-right form div {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#portal .container .portal .portal-right form div label {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 16px 8px 16px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3px;
+  border-radius: 10px;
+  background: var(--Base-White, #FFF);
+}
+#portal .container .portal .portal-right form div label input {
+  outline: none;
+  border: none;
+  color: var(--Base-Black, #140A32);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#portal .container .portal .portal-right form div label p {
+  color: var(--Gray-Low, rgba(47, 43, 67, 0.4));
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#portal .container .portal .portal-right form div button {
+  display: flex;
+  padding: 16px 24px 18px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--Base-Black, #140A32);
+  color: var(--Base-White, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+#portal .container .portal .portal-right p:nth-child(5) {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+#portal .container .portal .portal-right ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 350px;
+}
+#portal .container .portal .portal-right ul li h3 {
+  color: var(--Base-White, #FFF);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+#portal .container .portal .portal-right ul li p {
+  color: var(--Base-White, #FFF);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 390px) {
+  #portal {
+    padding: 0 10px;
+    margin-top: 40px;
+  }
+  #portal .container .portal {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 350px !important;
+  }
+  #portal .container .portal .portal-left {
+    width: 100% !important;
+  }
+  #portal .container .portal .portal-left li {
+    gap: 10px !important;
+    width: 100% !important;
+  }
+  #portal .container .portal .portal-left li img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  #portal .container .portal .portal-left li div {
+    width: 224px !important;
+  }
+  #portal .container .portal .portal-left li div p {
+    width: 244px !important;
+    font-size: 14px !important;
+  }
+  #portal .container .portal .portal-left li div p:nth-child(2) {
+    margin-left: 30px;
+  }
+  #portal .container .portal .portal-left li div p:nth-child(3) {
+    margin-left: 30px;
+  }
+  #portal .container .portal .portal-left .yurist {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #portal .container .portal .portal-right {
+    height: 748px !important;
+    padding: 0 10px;
+    width: 360px !important;
+  }
+  #portal .container .portal .portal-right .online {
+    top: 30px;
+    left: 10px;
+    width: 110px !important;
+  }
+  #portal .container .portal .portal-right h4 {
+    padding-top: 70px;
+    font-size: 20px;
+  }
+  #portal .container .portal .portal-right p:nth-child(3) {
+    color: var(--Base-White, #FFF);
+    font-size: 12px !important;
+    width: 314px !important;
+  }
+  #portal .container .portal .portal-right form #message {
+    width: 100% !important;
+  }
+  #portal .container .portal .portal-right form div {
+    flex-direction: column;
+  }
+  #portal .container .portal .portal-right form div label {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  #portal .container .portal .portal-right form div label p {
+    margin: 0px !important;
+  }
+  #portal .container .portal .portal-right form div button {
+    width: 100%;
+  }
+  #portal .container .portal .portal-right ul {
+    justify-content: center;
+    gap: 30px !important;
+  }
+  #portal .container .portal .portal-right ul li h3 {
+    font-size: 16px !important;
+  }
+  #portal .container .portal .portal-right ul li p {
+    font-size: 14px !important;
+  }
+}
+.footer_title {
+  color: #140A32;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.footer_item {
+  color: #140A32;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer_title1 {
+  color: #140A32;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+.footer_b {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+}
+
+.footer_title2 {
+  margin-top: 128px;
+}
+
+.footer_a {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+}
+
+@media screen and (max-width: 392px) {
+  .footer_b {
+    flex-direction: column;
+    gap: 0px !important;
+  }
+  .footer_a {
+    padding: 0 20px;
+    gap: 50px !important;
+  }
+  footer {
+    width: 350px !important;
+  }
+  .footer_title {
+    padding: 0 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
