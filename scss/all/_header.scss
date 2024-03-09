@@ -60,6 +60,11 @@ header{
                 font-weight: 600;   
                 line-height: normal;
                 color: white;
+
+                &:hover{
+                    background: #0c331c;
+                    transition: all 0.2s linear;
+                }
                 span{
                     top: 10px;
                     left: 10px;
@@ -214,6 +219,12 @@ header{
                 align-items: center;
                 gap: 10px;
                 color: black;
+                &:hover{
+                    background: #2b327b;
+                    transition: all 0.2s linear;
+                    color: white;
+                }
+                
             }
         }
     }

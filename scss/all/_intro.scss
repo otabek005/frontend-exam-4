@@ -46,6 +46,10 @@ main{
                     align-items: center;
 
                     button{
+                        &:hover{
+                            background: #0c331c;
+                            transition: all 0.2s linear;
+                        }
                         height: 56px;
                         padding: 16px 32px;
                         color: var(--Base-White, #FFF);

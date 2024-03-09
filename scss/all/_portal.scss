@@ -193,6 +193,11 @@
                             line-height: normal;
                             border: none;
                             cursor: pointer;
+
+                            &:hover{
+                                background: #000000;
+                                transition: all 0.2s linear;
+                            }
                         }
                     }
                 }

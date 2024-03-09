@@ -6,4 +6,9 @@
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     list-style-type: none;
+
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
