@@ -17,6 +17,11 @@
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
 header {
   z-index: 99999;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -106,7 +111,7 @@ header nav .responsiv {
   display: none;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   .container {
     max-width: 390px;
   }
@@ -339,7 +344,7 @@ main #intro .intro-wrapper .intro-right img {
   object-fit: cover;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   main {
     padding-top: 100px !important;
   }
@@ -496,7 +501,7 @@ main #intro .intro-wrapper .intro-right img {
   line-height: normal;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #yuridik_help {
     margin-top: 60px !important;
     margin-bottom: 40px !important;
@@ -586,7 +591,7 @@ main #intro .intro-wrapper .intro-right img {
   line-height: 150%; /* 24px */
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #help_you {
     padding-top: 50px;
   }
@@ -667,7 +672,7 @@ main #intro .intro-wrapper .intro-right img {
   line-height: normal;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #choise_our .container h4 {
     padding: 0 10px;
     font-size: 20px;
@@ -823,7 +828,7 @@ main #intro .intro-wrapper .intro-right img {
   text-decoration-line: underline;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #hot_linii .container .hot_linii {
     flex-direction: column;
     width: 360px;
@@ -908,7 +913,7 @@ main #intro .intro-wrapper .intro-right img {
   line-height: 150%; /* 21px */
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #our_yurist .container .our_yurist {
     padding: 0 10px;
   }
@@ -1003,7 +1008,7 @@ main #intro .intro-wrapper .intro-right img {
   display: none;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   .call_we {
     display: none;
   }
@@ -1158,7 +1163,7 @@ main #intro .intro-wrapper .intro-right img {
   transition: all 0.2s linear;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #quessions .container .quessions {
     width: 100% !important;
     padding: 20px;
@@ -1229,7 +1234,7 @@ main #intro .intro-wrapper .intro-right img {
   padding: 16px 36px 18px 36px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #seo-wrapper {
     padding-top: 300px;
     padding-left: 10px;
@@ -1344,7 +1349,7 @@ main #intro .intro-wrapper .intro-right img {
   font-size: 50px;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #our_clients .container .our_clients h5 {
     font-size: 20px;
     padding: 0 10px;
@@ -1563,7 +1568,7 @@ main #intro .intro-wrapper .intro-right img {
   line-height: normal;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #portal {
     padding: 0 10px;
     margin-top: 40px;
@@ -1830,7 +1835,7 @@ main #intro .intro-wrapper .intro-right img {
   z-index: 999;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   #popup-wrapper {
     height: 100% !important;
     width: 100% !important;
@@ -1932,7 +1937,7 @@ main #intro .intro-wrapper .intro-right img {
   gap: 140px;
 }
 
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 768px) {
   .footer_b {
     flex-direction: column;
     gap: 0px !important;
